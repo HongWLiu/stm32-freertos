@@ -1,0 +1,15 @@
+stm32l031k6_nucleo\timers.o: ..\freertos\timers.c
+stm32l031k6_nucleo\timers.o: D:\Studysoftware\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+stm32l031k6_nucleo\timers.o: ..\freertos\include\FreeRTOS.h
+stm32l031k6_nucleo\timers.o: D:\Studysoftware\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+stm32l031k6_nucleo\timers.o: D:\Studysoftware\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+stm32l031k6_nucleo\timers.o: ..\freertos\include\FreeRTOSConfig.h
+stm32l031k6_nucleo\timers.o: ..\freertos\include\projdefs.h
+stm32l031k6_nucleo\timers.o: ..\freertos\include\portable.h
+stm32l031k6_nucleo\timers.o: ..\freertos\include\deprecated_definitions.h
+stm32l031k6_nucleo\timers.o: ..\freertos\portable\RVDS\ARM_CM0\portmacro.h
+stm32l031k6_nucleo\timers.o: ..\freertos\include\mpu_wrappers.h
+stm32l031k6_nucleo\timers.o: ..\freertos\include\task.h
+stm32l031k6_nucleo\timers.o: ..\freertos\include\list.h
+stm32l031k6_nucleo\timers.o: ..\freertos\include\queue.h
+stm32l031k6_nucleo\timers.o: ..\freertos\include\timers.h

@@ -1,0 +1,13 @@
+stm32l031k6_nucleo\heap_4.o: ..\freertos\portable\MemMang\heap_4.c
+stm32l031k6_nucleo\heap_4.o: D:\Studysoftware\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+stm32l031k6_nucleo\heap_4.o: ..\freertos\include\FreeRTOS.h
+stm32l031k6_nucleo\heap_4.o: D:\Studysoftware\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+stm32l031k6_nucleo\heap_4.o: D:\Studysoftware\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+stm32l031k6_nucleo\heap_4.o: ..\freertos\include\FreeRTOSConfig.h
+stm32l031k6_nucleo\heap_4.o: ..\freertos\include\projdefs.h
+stm32l031k6_nucleo\heap_4.o: ..\freertos\include\portable.h
+stm32l031k6_nucleo\heap_4.o: ..\freertos\include\deprecated_definitions.h
+stm32l031k6_nucleo\heap_4.o: ..\freertos\portable\RVDS\ARM_CM0\portmacro.h
+stm32l031k6_nucleo\heap_4.o: ..\freertos\include\mpu_wrappers.h
+stm32l031k6_nucleo\heap_4.o: ..\freertos\include\task.h
+stm32l031k6_nucleo\heap_4.o: ..\freertos\include\list.h

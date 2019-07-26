@@ -1,0 +1,33 @@
+--cpu Cortex-M0+
+"stm32l031k6_nucleo\startup_stm32l031xx.o"
+"stm32l031k6_nucleo\croutine.o"
+"stm32l031k6_nucleo\event_groups.o"
+"stm32l031k6_nucleo\list.o"
+"stm32l031k6_nucleo\queue.o"
+"stm32l031k6_nucleo\tasks.o"
+"stm32l031k6_nucleo\timers.o"
+"stm32l031k6_nucleo\port.o"
+"stm32l031k6_nucleo\heap_4.o"
+"stm32l031k6_nucleo\stm32l0xx_nucleo_32.o"
+"stm32l031k6_nucleo\system_stm32l0xx.o"
+"stm32l031k6_nucleo\main.o"
+"stm32l031k6_nucleo\stm32l0xx_hal_msp.o"
+"stm32l031k6_nucleo\stm32l0xx_it.o"
+"stm32l031k6_nucleo\uart_demo.o"
+"stm32l031k6_nucleo\stm32l0xx_hal_uart.o"
+"stm32l031k6_nucleo\stm32l0xx_hal_uart_ex.o"
+"stm32l031k6_nucleo\stm32l0xx_hal_adc.o"
+"stm32l031k6_nucleo\stm32l0xx_hal_adc_ex.o"
+"stm32l031k6_nucleo\stm32l0xx_hal_gpio.o"
+"stm32l031k6_nucleo\stm32l0xx_hal_tim_ex.o"
+"stm32l031k6_nucleo\stm32l0xx_hal_cortex.o"
+"stm32l031k6_nucleo\stm32l0xx_hal_dma.o"
+"stm32l031k6_nucleo\stm32l0xx_hal.o"
+"stm32l031k6_nucleo\stm32l0xx_hal_tim.o"
+"stm32l031k6_nucleo\stm32l0xx_hal_rcc.o"
+"stm32l031k6_nucleo\stm32l0xx_hal_rcc_ex.o"
+--library_type=microlib --strict --scatter "STM32L031K6_NUCLEO\STM32L031K6_NUCLEO.sct"
+
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "STM32L031K6_NUCLEO.map" -o STM32L031K6_NUCLEO\STM32L031K6_NUCLEO.axf
